@@ -1,0 +1,32 @@
+
+Warning: PHP Startup: Unable to load dynamic library 'C:\xampp\php\ext\php_mysql.dll' - The specified module could not be found.
+ in Unknown on line 0
+<html>
+<head>
+	<title>Login Form | tutorialweb.net</title>
+</head>
+<body>
+
+	<form action="login2.php" method="post">
+	<center><h2>Login Form</h2></center>
+	<table align="center">
+		<tr>
+			<td>Username</td>
+			<td>:</td>
+			<td><input type="text" name="username" placeholder="username" required /></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td>:</td>
+			<td><input type="password" name="pass" placeholder="Password" required /></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td><input type="submit" name="login" value="Login" /></td>
+		</tr>
+	</table>
+	</form>
+
+</body>
+</html>

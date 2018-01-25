@@ -1,0 +1,13 @@
+
+Warning: PHP Startup: Unable to load dynamic library 'C:\xampp\php\ext\php_mysql.dll' - The specified module could not be found.
+ in Unknown on line 0
+<?php
+include 'koneksi.php';
+$id     = $_POST['id'];
+$proxy  = $_POST['proxy'];
+$lokasi = $_POST['lokasi'];
+
+mysqli_query($koneksi, "update cabang set proxy='$proxy', lokasi='$lokasi' where id='$id'");
+header("location:cabang.php");
+
+?>

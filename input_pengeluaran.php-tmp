@@ -1,0 +1,14 @@
+
+Warning: PHP Startup: Unable to load dynamic library 'C:\xampp\php\ext\php_mysql.dll' - The specified module could not be found.
+ in Unknown on line 0
+<?php
+include 'koneksi.php';
+$tanggal    = $_POST['tanggal'];
+$nama_proxy = $_POST['nama_proxy'];
+$detail     = $_POST['detail'];
+$jumlah     = $_POST['jumlah'];
+
+mysqli_query($koneksi, "insert into keluar values('', '$tanggal', '$nama_proxy', '$detail', '$jumlah')");
+header("location:pengeluaran.php");
+
+?>

@@ -1,0 +1,10 @@
+
+Warning: PHP Startup: Unable to load dynamic library 'C:\xampp\php\ext\php_mysql.dll' - The specified module could not be found.
+ in Unknown on line 0
+<?php
+include 'koneksi.php';
+$id_keluar = $_GET['id_keluar'];
+mysqli_query($koneksi, "delete from keluar where id_keluar='$id_keluar'");
+header("location:pengeluaran.php");
+
+?>

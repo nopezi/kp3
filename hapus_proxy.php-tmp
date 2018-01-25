@@ -1,0 +1,10 @@
+
+Warning: PHP Startup: Unable to load dynamic library 'C:\xampp\php\ext\php_mysql.dll' - The specified module could not be found.
+ in Unknown on line 0
+<?php
+include 'koneksi.php';
+$id_proxy = $_GET['id_proxy'];
+mysqli_query($koneksi, "delete from proxy where id_proxy='$id_proxy'");
+header("location:proxy.php");
+
+?>
