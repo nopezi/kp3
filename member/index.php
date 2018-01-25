@@ -8,30 +8,7 @@ include 'header.php';
     if (@$_SESSION['user']) {     
  ?>
 
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-             <span class="sr-only">Toggle navigation</span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-             <span class="icon-bar"></span>
-          </button>
-       </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                 <li><a href="index.php">home</a></li>
-                    
-                    
-                    <li><a href="pengeluaran.php" title="">Pengeluaran</a></li>
-                    <li><a href="proxy.php" >Proxy</a></li>
-                    <li><a href="finance.php" >Laporan Finance</a></li>
-
-                    <li class=""><a href="../logout.php" class="dropdown-toggle">Keluar </a></li>
-                </ul>
-            </div>
-    </div>
-</div>
+<?php require_once 'header.php'; ?>
 
     <div class="container">
         <div class="panel panel-success" style="padding-top: 100px">
