@@ -18,9 +18,7 @@ include 'header.php';
             <h2><marquee>Selamat Datang di Halaman Proxy </marquee></h2>
         </div>
 
-        <div class="panel-footer">
-            &copy;Kahyangan Multimedia Finance <b><?php echo date('Y'); ?></b>
-        </div>
+<?php require_once 'footer.php';  ?>
         
         </div>
    </div>

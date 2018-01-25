@@ -65,23 +65,10 @@ if (@$_SESSION['user']) {
 
 
 		<?php }?>
+	</div>
 
-
-
-
-
-
-
-
-
-		</div>
-
-		<div class="panel-footer">
-	            &copy;
-	Kahyangan Multimedia Finance <b><?php echo date('Y');
-	?></b>
-	    </div>
-		</div>
+	<?php require_once 'footer.php';?>
+	</div>
 		</div>
 	</div>
 

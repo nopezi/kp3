@@ -66,18 +66,9 @@ if ($d['id_proxy']==$id_proxy) {
 <?php } ?>
 
 
-
-
-
-
-
-
-
 	</div>
 	
-	<div class="panel-footer">
-            &copy;Kahyangan Multimedia Finance <b><?php echo date('Y'); ?></b>
-    </div>
+<?php require_once 'footer.php'; ?>
 	</div>
 	</div>
 </div>

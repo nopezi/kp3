@@ -1,0 +1,22 @@
+
+Warning: PHP Startup: Unable to load dynamic library 'C:\xampp\php\ext\php_mysql.dll' - The specified module could not be found.
+ in Unknown on line 0
+<?php
+
+include 'header.php';
+@session_start();
+
+include "../koneksi.php";
+
+if (@$_SESSION['user']) {
+	?>
+
+	<?php require_once 'header.php';?>
+
+
+
+	<?php
+} else {
+	header("location:index.php");
+}
+?>

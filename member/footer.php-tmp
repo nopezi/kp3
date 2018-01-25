@@ -1,0 +1,8 @@
+
+Warning: PHP Startup: Unable to load dynamic library 'C:\xampp\php\ext\php_mysql.dll' - The specified module could not be found.
+ in Unknown on line 0
+<div class="panel-footer">
+            &copy;
+Kahyangan Multimedia Finance <b><?php echo date('Y');
+?></b>
+</div>
